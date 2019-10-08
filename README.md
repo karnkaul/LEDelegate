@@ -15,3 +15,6 @@ Usage:
 - Call `Register()` on the object and store the received `Token` to receive the callback
 - Invoke the object (`foo()`) to fire all callbacks; returns number of active registrants
 - Discard the `Token` object to unregister a callback (recommend storing as a member variable for transient lifetime objects)
+
+CMake:
+  - Set `SOURCES` to existing source file list and include `Delegate.cmake` before creating the target
